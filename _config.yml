@@ -20,7 +20,7 @@ reddit_username: DadsGaming
 instagram_username: DadsGaming
 #github_username:  manavsehgal
 
-default_image: /img/opentheme-workflow.png
+default_image: {{ site.url }}/img/opentheme-workflow.png
 
 # Pre-processing
 

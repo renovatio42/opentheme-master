@@ -50,11 +50,11 @@
   <meta name="keywords" content="{% if page.layout != 'post' %}{{ site.keywords }}{% else %}{{ page.tags | join: ', ' }}, {{ page.categories | join: ', ' }}{% endif %}">
   
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
   
   <!-- Common Styles -->
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.5/semantic.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/main.min.css">
   <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
   
   {% if site.pingdom_rum %}
