@@ -1,8 +1,8 @@
 # Site settings
 
-#title: Dads Gaming
-#tagline: "Dads Gaming continues to inform and inspire."
-#email: sehgal.manav@gmail.com
+title: Dads Gaming
+tagline: "Dads Gaming continues to inform and inspire."
+email: sehgal.manav@gmail.com
 copyright: Dads Gaming
 keywords: Dads, Gaming, DadsGaming, Xbox, PlayStation, Console, Video Games, Videos, Reviews, Interviews, Blog, Fun
 
@@ -20,7 +20,7 @@ reddit_username: DadsGaming
 instagram_username: DadsGaming
 #github_username:  manavsehgal
 
-default_image: {{ site.url }}/img/opentheme-workflow.png
+#default_image: {{ site.url }}/img/opentheme-workflow.png
 
 # Pre-processing
 
