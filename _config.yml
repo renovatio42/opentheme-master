@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "url:". One indent required
   No Dad should be left alone to game with pubs.
 
 # the base hostname & protocol for your site
-url: http://renovatio42.github.io/opentheme-master/
+url: http://renovatio42.github.io/opentheme-master
 
 twitter_username: DadGamers
 twitch_username: TheDadsGaming
