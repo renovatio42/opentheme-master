@@ -3,6 +3,35 @@ layout: landing
 title: Home
 ---
 
+<div class="ui vertical segment black-shine-gradient">
+  <div class="ui centered page stackable divided grid">
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui header">
+          Browse DadsGaming Content
+        </h1>
+		{% include recent-posts.html %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="eight wide column">
+
+        <h3 class="ui header">Tags</h3>
+          {% include site-tags.html %}
+
+      </div>
+
+      <div class="eight wide column">
+
+        <h3 class="ui header">Categories</h3>
+          {% include site-categories.html %}
+
+      </div>
+
+    </div> <!-- /row -->
+  </div>
+</div>
+
 <div class="ui feature vertical segment">
   <div class="ui centered page grid">
     <div class="fourteen wide column">
@@ -39,6 +68,7 @@ title: Home
   <div class="ui stackable page grid">
     <div class="row">
       <div class="eight wide column">
+		  
         <h3 class="ui inverted header">OpenTheme Helps Re-Imagine Web Design</h3> 
         <h4 class="ui inverted header">
         Design a website that <a href="{{ site.url }}/metrics/">self monitors</a> as it changes!
@@ -159,7 +189,7 @@ title: Home
     <div class="row">
       <div class="column">
         <h1 class="center aligned ui header">
-          Browse OpenTheme Content
+          Browse DadsGaming Content
         </h1>
       </div>
     </div>
