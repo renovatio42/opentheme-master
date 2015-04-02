@@ -1,0 +1,184 @@
+---
+layout: landing
+title: Home
+---
+
+<div class="ui feature vertical segment">
+  <div class="ui centered page grid">
+    <div class="fourteen wide column">
+      <div class="ui three column center aligned stackable divided grid">
+        <div class="column">
+          <div class="ui icon header">
+            <i class="blue facebook icon"></i>
+            Facebook 
+          </div>
+  			<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FTheDadsGaming&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+        </div>
+        <div class="column">
+          <div class="ui icon header">
+            <i class="blue reddit icon"></i>
+            reddit
+          </div>
+		  <script src="http://www.reddit.com/r/DadsGaming/.embed?limit=5&t=all" type="text/javascript"></script>
+        </div>
+        <div class="column">
+          <div class="ui icon header">
+            <i class="blue twitter icon"></i>
+            Twitter
+          </div>		  
+			<a class="twitter-timeline" href="https://twitter.com/DadGamers/lists/dad-gamers" data-widget-id="492374814326132736">Tweets from https://twitter.com/DadGamers/lists/dad-gamers</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui vertical segment black-shine-gradient">
+  <div class="ui stackable page grid">
+    <div class="row">
+      <div class="eight wide column">
+        <h3 class="ui inverted header">OpenTheme Helps Re-Imagine Web Design</h3> 
+        <h4 class="ui inverted header">
+        Design a website that <a href="/metrics/">self monitors</a> as it changes!
+        </h4>
+        <h4 class="slim-header-light">
+        Create <a href="/apps/">mobile hybrid apps</a> in just 3 lines of code!
+        </h4>
+        <h4 class="ui inverted header">
+        Author real-time content using <a href="/embeds/">plugin embeds</a>.
+        </h4>
+        <h4 class="slim-header-light">
+        Manage content 100% on Cloud, in Browser</a>.
+        </h4>
+        <h4 class="ui inverted header">
+        Publish data driven docs</a>, without a database.
+        </h4>
+		
+      </div>
+      <div class="eight wide column">
+        {#% include feature-post.html %}
+		  
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="ui feature vertical segment">
+  <div class="ui centered page grid">
+    <div class="fourteen wide column">
+      <div class="ui three column center aligned stackable divided grid">
+        <div class="column">
+          <div class="ui icon header">
+            <i class="purple mobile icon"></i>
+            Hybrid Apps
+          </div>
+          <p>Responsive theme supporting multiple devices with one code base. Design once, publish anywhere.</p>
+        </div>
+        <div class="column">
+          <div class="ui icon header">
+            <i class="purple bug icon"></i>
+            Live Tests
+          </div>
+          <p>Travis CI integrated. BrowserSync ready. Lint JS, CSS on build. HTML proofing planned.</p>
+        </div>
+        <div class="column">
+          <div class="ui icon header">
+            <i class="purple rocket icon"></i>
+            Speed Optimized
+          </div>
+          <p>PageSpeed Insights built-in. Images optimized in build. CSS, JS minified. Selective JS includes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui inverted vertical segment">
+  <div class="ui centered page grid">
+    <div class="fourteen wide column">
+      <div class="ui five column center aligned stackable inverted divided grid">
+        <div class="column">
+          <a class="ui small blue inverted statistic" href="/apps/">
+            <div class="value">
+              <i class="cube icon"></i> {{ site.categories.app | size  }}
+            </div>
+            <p class="label">
+              Single Page Apps
+            </p>
+          </a>
+        </div>
+        <div class="column">
+          <a class="ui small purple inverted statistic pagebar" href="#">
+            <div class="value">
+              <i class="content icon"></i> {{ site.pages | size  }}
+            </div>
+            <div class="label">
+              Templates
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a class="ui small blue inverted statistic" href="/embeds/">
+            <div class=" value">
+              <i class="wizard icon"></i> {{ site.data.embeds | size }}
+            </div>
+            <div class="label">
+              Reusable Embeds
+            </div>
+          </a>
+        </div>
+        <div class="column">
+            <div class="text value">
+              One Minute
+            </div>
+            <div class="label">
+              Content Workflow
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a class="ui small blue inverted statistic" href="/category/#theme">
+            <div class="value">
+              <i class="student icon"></i> {{ site.categories.theme | size  }}
+            </div>
+            <div class="label">
+              Theme Tutorials
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui vertical segment">
+  <div class="ui centered page stackable divided grid">
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui header">
+          Browse OpenTheme Content
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="eight wide column">
+
+        <h3 class="ui header">Tags</h3>
+          {% include site-tags.html %}
+
+      </div>
+
+      <div class="eight wide column">
+
+        <h3 class="ui header">Categories</h3>
+          {% include site-categories.html %}
+
+      </div>
+
+    </div> <!-- /row -->
+  </div>
+</div>
+

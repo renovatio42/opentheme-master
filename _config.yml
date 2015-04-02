@@ -1,0 +1,83 @@
+# Site settings
+
+title: Dads Gaming | DadsGaming.com
+tagline: Dads Gaming continues to inform and inspire.
+email: sehgal.manav@gmail.com
+copyright: Dads Gaming
+keywords: Dads, Gaming, DadsGaming, Xbox, PlayStation, Console, Video Games, Videos, Reviews, Interviews, Blog, Fun
+
+description: > # this means to ignore newlines until "url:". One indent required.
+  No Dad should be left alone to game with pubs.
+
+# the base hostname & protocol for your site
+url: "http://dadsgaming.com"
+
+twitter_username: DadGamers
+twitch_username: TheDadsGaming
+youtube_uername: channel/UCBtpyNu5Z7AgyBJM7zPhdVQ/feed
+facebook_username: TheDadsGaming
+reddit_username: DadsGaming
+instagram_username: DadsGaming
+#github_username:  manavsehgal
+
+default_image: /img/opentheme-workflow.png
+
+# Pre-processing
+
+markdown: kramdown
+highlighter: pygments
+safe: true
+permalink: pretty # YYYY/MM/DD/page-title/index.html
+lsi: true # Lexical analysis (true) takes longer for higher quality
+# sass:
+#  style: :compressed
+
+# Exclude from Jekyll processing
+
+exclude: ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
+
+# Lists
+
+tag_items: 20     # Applies to categories and tags lists
+recent_items: 10  # Applies to recent posts, apps lists
+related_items: 5  # Applies to related posts and apps lists
+
+# Layout
+
+pagebar: true # Show (true) page sidebar menu or hide (false) 
+postbar: true # Show (true) post sidebar or hide (false) 
+
+# Features
+
+reading_time: true    # Show est. reading time for posts
+facebook: false        # Use facebook features
+comments: disqus      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
+
+# Embeds
+
+disqus_name: DadsGaming            # Your site name at Disqus
+
+youtube_controls: 1               # Turn on=1/off=0 Youtube player features when embedding videos
+
+google_map_zoom: 16               # 1=Global zoom 18=Street Level
+google_map_view: satellite        # hybrid | satellite | roadmap
+google_map_height: 450            # Default map height. Width adjusts to container.
+
+# API Keys. PLEASE DO NOT USE THESE KEYS. Get your own at links in comments.
+
+#google_api_key: "AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0" # https://code.google.com/apis/console/
+google_analytics_ua: "UA-53292793-1" # Google Analytics site specific id
+google_cse_id: "016257104143329812843:n0_px1un1zk" # Google Custom Search Engine unique id
+
+#mapbox: "pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw"
+
+#facebook_app: "390272554479803" # https://developers.facebook.com/
+
+#mailchimp_u: "cf72d9276397b3175b874eb39" # Mailchimp u=unique identification
+#mailchimp_id: "3a51637dcc" # Mailchip id
+
+addthis_pubid: "ra-54eeb9ae17598c96" # Get your pubid at https://www.addthis.com/dashboard
+
+#pingdom_rum: "54a97d8aabe53daf361855a6" # https://my.pingdom.com/dashboard. Real User experience (speed) monitoring.
+
+#uservoice: "nvdgD40UtxnMoshpVHYxg"

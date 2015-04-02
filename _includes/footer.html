@@ -1,0 +1,57 @@
+<div class="ui inverted footer vertical segment">
+  <div class="ui stackable page grid">
+    <div class="ten wide column">
+      <div class="ui three column stackable grid">
+        <div class="column">
+          <h5 class="ui inverted header">About</h5>
+          <div class="ui inverted link list">
+            <a class="item" href="/">Home</a>
+			<a class="item" href="/category/#news/">News</a>
+			<a class="item" href="/blogs/">Blogs</a>
+			<a class="item" href="/events/">Events</a>
+            <a class="item" href="/category/#theme">Theme Features</a>
+            <a class="item" href="/tag/#playstation">PlayStation</a>
+			<a class="item" href="/tag/#Xbox">Xbox</a>
+          </div>
+        </div>
+        <div class="column">
+          <h5 class="ui inverted header">About</h5>
+          <div class="ui inverted link list">
+            <a class="item" href="/staff/">Staff</a>
+			<a class="item" href="/contact_us/">Contact Us</a>
+            <a class="item" href="/category/#theme">Advertise With Us</a>
+            <a class="item" href="/tag/#playstation">Send Us a Tip</a>
+          </div>
+        </div>
+        <div class="column">
+          <h5 class="ui inverted header">Support Us</h5>
+          <div class="ui inverted link list">
+            <a class="item" href="/support"/>Support</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="six wide column">
+      <div class="ui two column stackable grid">
+        <div class="column">
+          <h5 class="ui inverted header">Connect With Us</h5>
+          <div class="ui inverted link list">
+            <a class="item" href="http://twitter.com/{{ site.twitter_username }}"><i class="twitter icon"></i> Twitter</a>
+			<a class="item" href="http://facebook.com/{{ site.facebook_username }}"><i class="facebook icon"></i> Facebook</a>
+			<a class="item" href="http://reddit.com/r/{{ site.reddit_username }}"><i class="reddit icon"></i> reddit</a>
+            <a class="item" href="http://twitch.tv/{{ site.twitch_username }}"><i class="twitch icon"></i> Twitch</a>
+			<a class="item" href="http://youtube.com/{{ site.youtube_username }}"><i class="youtube icon"></i> Youtube</a>
+            <a class="item" href="{{ site.url }}/feed.xml"><i class="rss icon"></i> Feed</a>
+          </div>
+        </div>
+        <div class="column">
+          <h5 class="ui inverted header">Contact Us</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui center aligned segment copyright">
+  <i class="world icon"></i> Copyright &copy; {{ site.time | date: "%Y" }} {{ site.copyright }}
+</div>

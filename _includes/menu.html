@@ -1,0 +1,21 @@
+<div class="ui menu">
+  <a class="header item" href="/">Dads Gaming</a>
+  <div class="right menu">
+    <a class="item menu-details {% if page.title == 'Blog' %}active{% endif %}" href="/blogs/" data-position="bottom left" data-content="Blogs"><i class="blue icon comments"></i>blogs</a>
+	<a class="item menu-details {% if page.title == 'Reviews' %}active{% endif %}" href="/reviews/" data-position="bottom left" data-content="Reviews"><i class="blue file text outline icon"></i>reviews</a>
+	<a class="item menu-details {% if page.title == 'Interviews' %}active{% endif %}" href="/interviews/" data-position="bottom left" data-content="Interviews"><i class="blue crosshairs icon"></i>interviews</a>
+	<a class="item menu-details {% if page.title == 'Gaming' %}active{% endif %}" href="/gaming/" data-position="bottom left" data-content="Gaming"><i class="blue game icon"></i>gaming</a>
+	 <a class="item menu-details {% if page.title == 'Community' %}active{% endif %}" href="http://www.reddit.com/r/DadsGaming/" data-position="bottom left" data-content="Become part of our DadsGaming Community join us on reddit"><i class="blue comments outline icon"></i>join us on reddit!</a>
+	 <a class="item menu-details {% if page.title == 'Events' %}active{% endif %}" href="/events/" data-position="bottom left" data-content="Calendar Events"><i class="blue calendar icon"></i>events</a>
+    <div class="item">
+      <div class="ui transparent mini icon input">
+        <input type="text" placeholder="Search..." class="menu-search">
+        <i class="search link icon"></i>
+      </div>
+    </div>
+    {% if site.pagebar %}
+      <a class="mobile item pagebar" href="#"><i class="icon content"></i></a>
+      <a class="item pagebar" href="#"><i class="icon content"></i></a>
+    {% endif %}
+  </div>
+</div>
