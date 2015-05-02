@@ -3,7 +3,7 @@ layout: post
 author: Renovatio
 category: hardline
 title:  "Battlefield Hardline Heist Live Action Trailer"     
-tags: media embeds
+tags: battlefield hardline trailer liveaction
 image: /img/embed/battlefield-hardline-heist-live.jpg
 ---
 

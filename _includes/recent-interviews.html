@@ -1,0 +1,19 @@
+<div class="ui inverted animated selection list">
+  {% for post in site.interviews limit:site.recent_items %}
+    {% capture first_tag %}{{ interview.tags | first }}{% endcapture %}
+    {% if first_tag != 'feature' and interview.category != 'app' %}
+      {% if interview.category %}<a class="ui ribbon small label"  href="/category/#{{ interview.category }}">{{ interview.category }}</a>{% endif %}
+      <a class="item" href="{{ post.url }}">
+        <div class="recent-posts-title">{{ interview.title }}</div>
+        {% if interview.image %}
+        <div class="thumb-img">
+          <img class="ui rounded image" src="{{ interview.image }}" alt="{{ interview.title }}">
+        </div>
+        {% else %}
+        <small> {{interview.excerpt}} </small>
+        {% endif %}
+        <div class="right floated"><small>{{ interview.date | date: "%b %-d, %Y" }}</small></div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,24 @@
+{% for post in site.interviews %}
+    {% if interview.tags %}
+      {% for tag in interview.tags %}
+        {% if tag == 'feature' %}
+          <div>
+            <a href="{{ interview.url }}">
+              <h3 class="ui inverted header">{{interview.title}}</h3>
+            </a>
+            {% if post.image %}
+              <div class="thumb-img">
+                <a href="{{ interview.url }}">
+                <img class="ui rounded image" src="{{ interview.image }}" alt="{{ interview.title }}">
+                </a>
+              </div>
+            {% endif %}
+            <a class="ui basic inverted animated button" href="{{ interview.url }}">
+              <div class="visible content">Read More</div>
+              <div class="hidden content"><i class="right arrow icon"></i></div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}      
+{% endfor %}

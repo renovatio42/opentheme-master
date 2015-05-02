@@ -3,7 +3,7 @@ layout: post
 author: Renovatio
 category: xbox
 title:  "April 2015 - Free Games with Gold on Xbox One and Xbox 360"     
-tags: xbox xbl gold
+tags: xbox xbl gold xboxlive free
 image: /img/embed/games-with-gold-cover.png
 ---
 
